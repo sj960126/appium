@@ -13,7 +13,7 @@ class MainTest(unittest.TestCase):
         # Appium 드라이버 종료
         self.driver.quit()
 
-    def test_login_with_valid_credentials(self):
+    def tap_category_button(self):
         self.main_page.tap_category_button()
 
 if __name__ == "__main__":
