@@ -13,9 +13,9 @@ class AppiumSetup:
         options = UiAutomator2Options()
         options.platform_name = "Android"
         options.device_name = "emulator-5554"
-        options.app = "/Users/songhyeonsu/dev/app-android/app/alpha/debug/app-alpha-debug.apk"
+        options.app = "/Users/songhyeonsu/dev/hedge-android/presentation/debug/presentation-debug.apk"
         options.app_package = "com.hadge.hadge_android"
-        options.app_activity = "com.hadge.hadge_android.features.main.screen.container.MainActivity"
+        options.app_activity = ".features.main.screen.container.MainActivity"
         options.automation_name = "UiAutomator2"
         options.new_command_timeout = 30  # 새로운 명령에 대한 타임아웃 설정
 
